@@ -1,0 +1,33 @@
+.affilate {
+    margin-top: 100px;
+}
+
+.affilate__head {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.affilate__line {
+    width: 50px;
+}
+
+.affilate__title {
+    margin: 0px;
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1.8px;
+    color: $c-text-black;
+}
+.affilate__companies{
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}

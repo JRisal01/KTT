@@ -1,0 +1,137 @@
+.explore {
+    width: 100%;
+    margin-top: 144px;
+    background-image: url('../src/images/explore-background.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.explore__wrapper {
+    width: 1060px;
+    margin: auto;
+}
+
+.explore__head {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.explore__head-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 48px;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+.explore__title {
+    font-family: $ff-header-bold;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: $c-text-black;
+    margin-bottom: 0px;
+}
+
+.explore__line {
+    width: 654px;
+    background: $c-text-black;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    @media #{$medium-screen} {
+        width: 500px;
+    }
+    @media #{$ipad} {
+        display: none;
+    }
+}
+
+.explore__body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 75px;
+    @media #{$ipad} {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+.explore__left {
+    margin-left: 60px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    @media #{$ipad} {
+        width: 70%;
+        margin-left: 0px;
+        
+    }
+}
+
+.explore__right {
+    width: 540px;
+    margin-top: -5px;
+    @media #{$ipad} {
+        width: 70%;
+        
+    }
+}
+
+.explore__country {
+    margin-left: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: $c-text-black;
+    margin-bottom: 35px;
+    @media #{$ipad} {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        
+    }
+}
+
+.explore__image {
+    margin-left: -20px;
+    @media #{$ipad} {
+        margin-bottom: 20px;
+        
+    }
+}
+
+.explore__country-discription {
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    color: $c-text-black;
+    margin-bottom: 25px;
+}
+
+.explore__company-discription {
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: $c-text-black;
+}
+
+.explore__button {
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: $c-text-black;
+}

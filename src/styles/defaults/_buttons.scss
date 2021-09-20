@@ -1,0 +1,52 @@
+button,
+.button {
+    -webkit-appearance: none;
+    text-decoration: none;
+    box-shadow: none;
+    border: 0;
+    border-radius: 4px;
+    background-color: $cb-background;
+    color: $c-text-black;
+    letter-spacing: 0;
+    font-family: $ff-body-bold;
+    font-weight: 600;
+    @include fsz(16px);
+    color: $c-text-black;
+    line-height: 16px;
+    padding: 10px 20px;
+    @include easeout;
+    pointer-events: all;
+    cursor: pointer;
+    display: inline-block;
+
+    @media #{$phone} {
+        @include fsz(16px);
+        padding: 10px 25px;
+    }
+
+    @media #{$phone-portrait} {
+        padding: 10px 20px;
+    }
+
+    &:hover, &:focus {
+        @include easein;
+        background-color: darken($cb-background, 10%);
+        color: $c-white;
+        box-shadow: 0 10px 25px -5px rgba($c-black, .25);
+    }
+}
+
+.button--border {
+    background: transparent;
+    color: $c-text-black;
+    padding: 0px 0px 6px 0px;
+    border-bottom: 2px solid #FFC89A;
+
+    &:hover, &:focus {
+        transition-duration: 200ms;
+        padding: 6px 10px 6px 10px;
+        background-color: $cb-background;
+        color: $c-white;
+        box-shadow: 0 10px 25px -5px rgba($c-black, .25);
+    }
+}

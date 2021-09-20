@@ -1,0 +1,117 @@
+.contact {
+    width: 100%;
+    background-image: url('../src/images/contact-background.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.contact__wrapper {
+    padding-top: 107px;
+    width: 1200px;
+    margin: auto;
+    border-bottom: #D1D1D3 solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__left {
+    width: 550px;
+    border-right: #D1D1D3 solid 1px;
+    display: flex;
+    margin-top: 45px;
+}
+
+
+
+.contact__brochur {
+    width: 250px !important;
+    z-index: 1 !important;
+}
+
+.contact__download {
+    margin-top: 58px;
+    margin-left: -100px;
+    width: 296px;
+    height: 124px;
+    border: 1px solid rgba(23, 27, 33, 0.172694);
+    box-sizing: border-box;
+    background-color: $c-white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact__download-info {
+    padding-right: 20px;
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: $c-contact;
+    margin-bottom: 0px;
+}
+
+.contact__download-info--bold {
+    font-family: $ff-header-bold;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.contact__right {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    padding: 40px 0px 0px 80px;
+}
+
+.contact__sub-title {
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1.8px;
+    color: $c-text-black;
+    margin-bottom: 0px;
+}
+
+.contact__title {
+    font-family: $ff-header-bold;
+    font-size: 46px;
+    line-height: 40px;
+    color: $c-contact;
+    margin-bottom: 40px;
+}
+
+.contact__info {
+    display: flex;
+    column-gap: 60px;
+}
+
+.contact__item-info {
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: $c-black;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.conatct__phone-number {
+    font-family: $ff-body-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: -1px;
+    color: $c-contact;
+}
+

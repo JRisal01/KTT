@@ -1,0 +1,10 @@
+.banner{
+    min-height: 870px;
+    background-image: url('../src/images/background.png');
+    background-repeat: no-repeat;
+    background-position: bottom top center;
+    background-size: cover;
+    @media #{$ipad} {
+        height: 100vh;
+    }
+}

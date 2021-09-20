@@ -1,0 +1,48 @@
+/*
+Usage
+===============
+Define Font name in variable and specify here.
+@include fontFace('$font-variable', FontNameInPath, '/path');
+*/
+@font-face {
+  font-family: 'BerlingskeSerif';
+  src: url("../src/font/BerlingskeSerif-Regular.woff2") format("woff2"), url("../src/font/BerlingskeSerif-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BerlingskeSerif-Bold';
+  src: url("../src/font/BerlingskeSerif-Bold.woff2") format("woff2"), url("../src/font/BerlingskeSerif-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BerlingskeSerif-Italic';
+  src: url("../src/font/BerlingskeSerif-Italic.woff2") format("woff2"), url("../src/font/BerlingskeSerif-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BerlingskeSerif-Md';
+  src: url("../src/font/BerlingskeSerif-Md.woff2") format("woff2"), url("../src/font/BerlingskeSerif-Md.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url("../src/font/ProximaNova-Regular.woff2") format("woff2"), url("../src/font/ProximaNova-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova-Bold';
+  src: url("../src/font/ProximaNova-Bold.woff2") format("woff2"), url("../src/font/ProximaNova-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=fonts.css.map */

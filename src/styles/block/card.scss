@@ -1,0 +1,70 @@
+.card {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.card__wrapper {
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    @media #{$medium-screen} {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
+
+.card__item {
+    width: 360px;
+    height: 300px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.card__item--nepal {
+    background-image: url('../src/images/nepal.png');
+}
+
+.card__item--tibet {
+    background-image: url('../src/images/tibet.png');
+}
+
+.card__item--bhutan {
+    background-image: url('../src/images/bhutan.png');
+    .card__line {
+        width: 64px;
+    }
+}
+
+.card__line {
+    width: 24px;
+    color: $c-white;
+    margin: 0px;
+    margin-bottom: 18px;
+}
+
+.card__country {
+    font-family: $ff-body-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    color: $c-white;
+    margin-bottom: 5px;
+}
+
+.card__info {
+    font-family: $ff-body;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+}
